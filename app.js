@@ -146,7 +146,7 @@ const toggleSpinner = () => {
     const spinner = document.getElementById('loading-spinner').classList;
     //const gallery = document.querySelector('.gallery').classList;
     const imagesArea = document.querySelector('.images').classList;
-    spinner.toggle('d-none');
+    // spinner.toggle('d-none');
     imagesArea.toggle('d-none');
     //console.log(spinner);
 };
